@@ -1,3 +1,4 @@
+use client
 import { description, title } from "@/lib/metadata";
 import { generateMetadata } from "@/lib/farcaster-embed";
 import { useState } from "react";
@@ -7,7 +8,6 @@ import { Textarea } from "@/components/ui/textarea";
 import { AlertDialog, AlertDialogTrigger, AlertDialogContent, AlertDialogHeader, AlertDialogTitle, AlertDialogDescription, AlertDialogFooter, AlertDialogCancel, AlertDialogAction } from "@/components/ui/alert-dialog";
 import { Share } from "@/components/share";
 import { url } from "@/lib/metadata";
-"use client";
 
 export { generateMetadata };
 
