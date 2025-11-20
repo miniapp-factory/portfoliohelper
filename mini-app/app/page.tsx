@@ -7,6 +7,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { AlertDialog, AlertDialogTrigger, AlertDialogContent, AlertDialogHeader, AlertDialogTitle, AlertDialogDescription, AlertDialogFooter, AlertDialogCancel, AlertDialogAction } from "@/components/ui/alert-dialog";
 import { Share } from "@/components/share";
 import { url } from "@/lib/metadata";
+"use client";
 
 export { generateMetadata };
 
